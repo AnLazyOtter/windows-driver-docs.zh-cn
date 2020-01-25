@@ -22,27 +22,27 @@ ms.locfileid: "67366919"
 
 本部分介绍在 Windows 10，版本 1703年中的新调试工具。
 
--   八个新的 JavaScript 主题包括[JavaScript 调试器脚本](javascript-debugger-scripting.md)
+-   包括[JavaScript 调试器脚本](javascript-debugger-scripting.md)在内的8个新的 JavaScript 主题
 -   更新到[ **dx （显示调试器对象模型表达式）** ](dx--display-visualizer-variables-.md)命令，以包含新的命令功能。
--   新[ **dtx （显示类型的扩展的调试器对象模型信息）** ](dtx--display-type---extended-debugger-object-model-information-.md)命令。
--   新[ **！ ioctldecode** ](-ioctldecode.md)命令。
+-   新增[ **dtx （显示类型的扩展的调试器对象模型信息）** ](dtx--display-type---extended-debugger-object-model-information-.md)命令。
+-   新增[ **!ioctldecode** ](-ioctldecode.md)命令。
 -   更新[调试器引擎参考](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-engine-reference)以包括其他接口和结构。
 -   更新到[配置 tools.ini](configuring-tools-ini.md)到文档的命令行调试器的其他选项。
--   发布中的 75 先前未记录的停止代码[Bug 检查代码参考](bug-check-code-reference2.md)。
--   新[有关在 Windows 10 中的网络内核调试支持以太网 Nic](supported-ethernet-nics-for-network-kernel-debugging-in-windows-10.md)主题。
+-   在[Bug 检查代码参考](bug-check-code-reference2.md)页面中发布了75条先前未曾记录的停止代码。
+-   新增[Windows 10 中的网络内核调试支持的以太网 NIC](supported-ethernet-nics-for-network-kernel-debugging-in-windows-10.md)主题。
 
 ## <a name="span-idwindows10version1607spanspan-idwindows10version1607spanspan-idwindows10version1607spanwindows10-version-1607"></a><span id="Windows_10__version_1607"></span><span id="windows_10__version_1607"></span><span id="WINDOWS_10__VERSION_1607"></span>Windows 10，版本 1607
 
 
-本部分介绍在 Windows 10，版本 1607年中的新调试工具。
+本部分介绍了在 Windows 10，版本 1607中的新调试工具。
 
--   有关新主题[调试 UWP 应用使用 WinDbg](debugging-a-uwp-app-using-windbg.md)。
--   更新到 30 查看次数最多的开发人员 bug 签入主题[Bug 检查代码参考](bug-check-code-reference2.md)。
+-   新增[使用 WinDbg 调试 UWP 应用](debugging-a-uwp-app-using-windbg.md)主题。
+-   在[Bug 检查代码参考](bug-check-code-reference2.md)页面中更新了30条开发人员最常查阅的 bug 代码条目。
 
 
 ## <a name="span-idwindows10spanspan-idwindows10spanspan-idwindows10spanwindows10"></a><span id="Windows_10"></span><span id="windows_10"></span><span id="WINDOWS_10"></span>Windows 10
 
--   [ **（将调试设置）.settings** ](-settings--set-debug-settings-.md) -新的命令，可用于设置、 修改、 显示、 加载和保存 Debugger.Settings 命名空间中的设置。
+-   [ **.settings（指定调试设置）** ](-settings--set-debug-settings-.md) -新的命令，可用于设置、 修改、 显示、 加载和保存 Debugger.Settings 命名空间中的设置。
 -   [**dx （显示 NatVis 表达式）** ](dx--display-visualizer-variables-.md) -描述新的 dx 调试器命令，支持使用 NatVis 扩展模型和 LINQ 的显示对象信息。
 -   使用调试程序环境中的 NatVis 可视化效果文件的新命令。
     -   [ **.nvlist （NatVis 列表）** ](-nvlist--natvis-list-.md)
@@ -51,16 +51,16 @@ ms.locfileid: "67366919"
     -   [ **.nvunloadall （NatVis 卸载所有）** ](-nvunloadall--natvis-unload-all-.md)
 -   [蓝牙扩展 (Bthkd.dll)](bluetooh-extensions--bthkd-dll-.md)
 -   [存储内核调试器扩展](storage-kernel-debugger-extensions.md)
--   新 Symproxy 信息，包括[SymProxy Automated Installation](symproxy-automated-installation.md)。 此外，以下主题会更新以涵盖新 SymProxy 功能：
+-   新 Symproxy 信息，包括[SymProxy 自动安装](symproxy-automated-installation.md)。 此外，以下主题会更新以涵盖新 SymProxy 功能：
     -   [HTTP 符号存储区](http-symbol-stores.md)
     -   [SymProxy](symproxy.md)
     -   [安装 SymProxy](installing-symproxy.md)
     -   [配置注册表](configuring-the-registry.md)
     -   [为 SymProxy 配置 IIS](configuring-iis-for-symproxy.md)
 -   [**CDB 命令行选项**](cdb-command-line-options.md) -经过更新以包括新的命令行选项。
--   [ **！ 分析**](-analyze.md) -经过更新以包括有关此扩展与 UMDF 2.15 配合使用的信息。
--   [ **！ wdfkd.wdfcrashdump**](-wdfkd-wdfcrashdump.md)-经过更新以包括有关使用此扩展和 UMDF 2.15 信息
--   [ **！ irp** ](-irp.md) -已更新。 从 Windows 10 开始 IRP 主版本号和次代码文本显示在命令输出中。
+-   [ **!analyze**](-analyze.md) （!分析）-经过更新以包括有关此扩展与 UMDF 2.15 配合使用的信息。
+-   [ **!wdfkd.wdfcrashdump**](-wdfkd-wdfcrashdump.md)-经过更新以包括有关使用此扩展和 UMDF 2.15 信息
+-   [ **!irp** ](-irp.md) -已更新。 从 Windows 10 开始 IRP 主版本号和次代码文本显示在命令输出中。
 -   [使用调试器标记语言](debugger-markup-language-commands.md)-经过更新以说明新右键单击可用调试器标记语言 (DML) 中的行为。
 -   [故障转储分析使用 Windows 调试器 (WinDbg)](crash-dump-files.md) -接管 KDNET 内存转储中增加了性能。
 -   [调试步骤的实验室 （Echo 内核模式） 的通用驱动程序-](debug-universal-drivers---step-by-step-lab--echo-kernel-mode-.md)-新的执行步骤的实验，演示了如何使用 WinDbg 调试示例 KMDF echo 驱动程序。
@@ -68,7 +68,7 @@ ms.locfileid: "67366919"
  
 ## <a name="looking-to-download-the-debugging-tools"></a>想要下载调试工具？
 
-下载调试工具的信息，请参阅[的 Windows 中下载调试的工具](debugger-download-tools.md)。
+要下载调试工具，请访问[下载适用于 Windows 的调试工具](debugger-download-tools.md)。
 
 
 
